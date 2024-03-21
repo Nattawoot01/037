@@ -4,7 +4,7 @@
 }
 
 .leftPort{
-  background-color: #242424;
+  background-color: #FFBBDA;
   width: 400px;
   flex-shrink: 0;
   padding: 30px;
@@ -12,17 +12,17 @@
 }
 
 .rightPort{
-  background-color: gray;
+  background-color: rgb(250, 208, 229);
   width: 100%;
   flex-grow: 1;
   padding: 4rem;
 }
 
 .imageProfile{
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 250px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #f4eeee;
   border-radius: 50%;
   overflow: hidden;
   padding: 1rem;
@@ -36,7 +36,7 @@
 }
 
 .titleProt h2{
-  color: greenyellow;
+  color: rgb(20, 23, 16);
 }
 p{
   margin-bottom: 15px;

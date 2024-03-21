@@ -10,48 +10,57 @@ function App() {
   return (
     <main id="main">
       <div className="leftPort">
-        <ImageProfile image="/src/assets/react.svg" />
+        <ImageProfile image="https://cts.ssru.ac.th/File/EN/EnrollmentDocument/tft5aozt.jpg" />
 
-        <Title title="Thanadet Kaewsri (Matt)">
-          <h3>ตำแหน่ง : Frontend</h3>
+        <Title title="ชื่อ-นามสกุล : นายณัฐวุฒิ หินโน ">
+          <h3>ชื่อเล่น : ฮาร์ท</h3>
         </Title>
 
-        <Title title="Contact">
-     
+        <Title title="ข้อมูลติดต่อ">
           <p>วันที่ปัจจุบัน: {moment().format("D MMM YYYY")}</p>
-          <p>วันเกิด: {moment("1994/07/01").format("D MMM YYYY")}</p>
+          <p>วันเกิด: {moment("2002/08/21").format("D MMM YYYY")}</p>
           <p style={{ display: hide ? 'none': 'block'}} >
-            Tel : +66877543002
+            Tel : 0971961428
           </p>
           <button onClick={() => setHide(!hide)}>
             {hide ? 'Show': 'Hide'}
           </button>
-          <p>Email : mattssru@gmail.com</p>
-          <p>www.mattssru@gmail.com</p>
+          <p>Email : heartjaja45@gmail.com</p>
+          <p>Line  : 0832933635</p>
         </Title>
     
-        <Title title="Education">
+        <Title title="การศึกษา">
           <p>ปริญญาตรี สาขาเทคโนโลยีสารสนเทศ</p>
           <p>มหาวิทยาลัยราชภัฏสวนสุนันทา</p> 
+          <p>GPA:3.69</p> 
         </Title>
       </div>
 
       <div className="rightPort">
-        <Title title="Profile">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quas natus soluta debitis nihil placeat, molestiae quae distinctio. Corporis dolores sit similique vitae dignissimos rerum saepe dolorem laboriosam rem impedit.</p>
+        <Title title="โปรไฟล์">
+          <p>สวัสดีครับผมชื่อนายณัฐวุฒิ หินโนทัศนะคติผมเป็นคนเฮฮาสนุกแต่เมื่อเวลาได้รับงานที่มอบหมายผมจะจริงจังและ</p>
+          <p>ตั้งใจทำให้งานเสร็จสมบูรณ์ตรงตามเวลาที่กำหนดผมเชื่อว่าทุกอย่างเราต้องใส่ใจรายละเอียดเสมอและพร้อมที่จะเรียนรู้สิ่งใหม่ๆ</p>
         </Title>
 
-        <Title title="Work Experience">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid veritatis eligendi cumque, laborum dolore error at, excepturi eum distinctio iste facere obcaecati natus impedit eaque eveniet nulla? Cupiditate, blanditiis in?</p>
-        </Title>
-
-        <Title title="Skills">
-          <p>HTML / CSS / JS</p>
-          <p>React.js</p>
-          <p>Next.js</p>
+        <Title title="ประสบการณ์/คุณสมบัติ">
+          <p>-ผ่านการทำ โปรเจคเรื่องการศึกษาและพัฒนาเว็บเพื่อให้ความรู้เกี่ยวกับการออกแบบที่ถูกต้องและการศึกษาการเกิดก๊าซเรือนกระจกจากการใช้ไฟฟ้า</p>
+          <p>-เว็บไซต์ที่ให้ความรู้เกี่ยวการออกแบบเว็บไซต์และสามารถคำนวณค่าก๊าซเรือนกระจกจากการใช้ไฟฟ้า</p>
+          <p>-พนักงานพาสไทม์ บริษัท ซีพีออลล์ จำกัด(มหาชน)</p>
+          <p>HTML/CSS/JS</p>
+          <p>React.js -Photoshop</p>
+          <p>Next.js  -Capcut</p>
           <p>Vue.js</p>
           <p>Git</p>
         </Title>
+
+        <Title title="การฝึกอบรม">
+        <p>
+        <p>-ออกแบบการเขียนเว็บไซต์หัวข้อการขายของออนไลน์</p>
+        <p>-อบรมกราฟฟิกหัวข้อออกแบบโมเดล 3D</p>
+        <p>-อบรมเตรียมความพร้อมทางด้านไอที</p>
+        </p>
+        </Title>
+
       </div>
     </main>
   )
